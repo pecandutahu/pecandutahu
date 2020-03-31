@@ -3,7 +3,7 @@
 @push('style')
 @endpush
 @section('content')
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center ">
     <h1>Data Terkini Covid 19 dari Seluruh Dunia</h1>
     <p>Coronavirus Global & Indonesia Live Data</p> 
     </div>
@@ -54,23 +54,22 @@
             </div><!-- COL END -->
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
                 <div class="card  bg-danger img-card box-success-shadow">
+                    <a class ="card-link" href="#" data-toggle="tooltip" data-placement="top" title="Detail Data Indonesia">
                     <div class="card-body">
                         <div class="d-flex">
                             <div class="text-white" id="indonesia">
                                 <p id="inaloading">
-                                    
                                     <div class="d-flex justify-content-center">
                                         <div class="spinner-grow text-info " role="status">
                                             <span class="sr-only">Loading...</span>
                                         </div>
                                     </div>
                                 </p>
-                                
                             </div>
-                            
                             <div class="ml-auto"> <img src="../uploads/indonesia-PZq.png" width="50" height="50" alt="Positif"> </div>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div><!-- COL END -->
             <!-- <div class="col text-center"><p>Sumber data : Kementerian Kesehatan & JHU. Update terakhir : 30  Maret 2020 22:55:44 WIB</p></div> -->
